@@ -17,6 +17,7 @@ public class Listeners extends BasePage implements ITestListener {
 
 		try {
 			takeSnapShot(result.getName());
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
