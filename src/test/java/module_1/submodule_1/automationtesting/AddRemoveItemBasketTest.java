@@ -23,7 +23,7 @@ public class AddRemoveItemBasketTest extends Hooks {
 
 	public AddRemoveItemBasketTest() throws IOException {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	@Test

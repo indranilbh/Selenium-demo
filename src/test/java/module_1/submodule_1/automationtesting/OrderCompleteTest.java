@@ -19,7 +19,6 @@ import pageObjects.ShopProductPage;
 import pageObjects.ShoppingCart;
 
 @Listeners(resources.Listeners.class)
-
 public class OrderCompleteTest extends Hooks {
 
 	public OrderCompleteTest() throws IOException {
