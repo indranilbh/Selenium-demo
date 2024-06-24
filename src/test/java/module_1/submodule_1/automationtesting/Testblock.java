@@ -24,6 +24,8 @@ public class Testblock extends Hooks{
 		ExtentManager.log("Starting ******...");
 		// creating an object of the automationtesting.co.uk webpage
 		Homepage home = new Homepage();
+		//String email=home.getValueFromJson(System.getProperty("user.dir") + "\\src\\test\\data\\data.json","email");;
+		//System.out.println(email);
 		ExtentManager.pass("comment *********");
 	}
 		

@@ -75,6 +75,9 @@ public class OrderCompleteTest extends Hooks {
 		pInfo.getGenderMr().click();
 		pInfo.getFirstNameField().sendKeys("John");
 		pInfo.getLastnameField().sendKeys("Smith");
+		
+		String email=pInfo.getValueFromJson(System.getProperty("user.dir") + "\\src\\test\\data\\data.json","email");;
+		System.out.println(email);
 		pInfo.getEmailField().sendKeys("johnsmith@test.com");
 		pInfo.getTermsConditionsCheckbox().click();
 		pInfo.getContinueBtn().click();
