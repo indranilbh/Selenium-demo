@@ -5,11 +5,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>uk.co.automationtesting</groupId>
-	<artifactId>liveproject1</artifactId>
+	<groupId>com.nil</groupId>
+	<artifactId>sel-demo</artifactId>
 	<version>1.0-SNAPSHOT</version>
 
-	<name>liveproject1</name>
+	<name>Selenium-demo-Indranil</name>
 	<!-- FIXME change it to the project's website -->
 	<url>http://www.example.com</url>
 

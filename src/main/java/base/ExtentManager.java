@@ -22,7 +22,7 @@ public class ExtentManager extends BasePage {
 	
 	public static ExtentReports getReport() {
 		if(extentReport == null) {
-			setupExtentReport("Live Project 1");
+			setupExtentReport("Demo-Indranil");
 		}
 		return extentReport;
 	}
@@ -33,7 +33,7 @@ public class ExtentManager extends BasePage {
 		extentReportsPrefix_Name(testName) + ".html");
 		extentReport.attachReporter(spark);
 		
-		extentReport.setSystemInfo("Tester", "John Smith");
+		extentReport.setSystemInfo("Tester", "Indranil");
 		spark.config().setReportName("Regression Test");
 		spark.config().setDocumentTitle("Test Results");
 		spark.config().setTheme(Theme.STANDARD);
