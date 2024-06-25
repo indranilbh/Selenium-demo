@@ -71,7 +71,7 @@ public class BasePage {
 		wait.until(ExpectedConditions.invisibilityOf(element));
 	}
 
-	public String getValueFromJson(String filePath, String key) {
+	public static String getValueFromJson(String filePath, String key) {
 		try {
 			String content = new String(Files.readAllBytes(Paths.get(filePath)));
 			JSONObject jsonObject = new JSONObject(content);
